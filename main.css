@@ -1,0 +1,99 @@
+body {
+    background-color: darkslategray;
+    margin: 0px;
+    margin-top: 0px;
+}
+
+header {
+    height: 340px;
+    width: 100%;
+    background-color: white;
+}
+
+.backgroundImg {
+    background: url(assets/ferretHeader.png) no-repeat;
+    background-position: top;
+    height: 375px;
+    width: 100%;
+}
+
+.navLinks {
+    background-color: grey;
+    display: block;
+    height: 46px;
+    padding: 0;
+    margin: 0;
+}
+
+/*links in class "navLinks"*/
+.navLinks li a {
+    display: block;
+    color: white;
+    background-color: darkslategrey;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*Changes link color on hover*/
+.navLinks li a:hover {
+    background-color: black;
+}
+
+/*list items in class "navLinks*/
+.navLinks li {
+    display: block;
+    float: right;
+}
+
+/*specifically targets the home link and
+ aligns left without the rest of the list*/
+.navLinks .home {
+    display: block;
+    float: left;
+}
+
+.navLinks input {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.navLinks button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.titleContainer {
+    height: 100px;
+    width: 100%;
+    background-color: #ffff48;
+    
+}
+
+.titleMain {
+    text-align: center;
+    position: relative;
+    bottom: 125px;
+    font-size: 60px;
+}
+
+.gridContainer {
+    margin-left: 25px;
+}
+
+.gridContainer div {
+    height: 300px;
+    width: 30%;
+    background-color: white;
+    margin: 4px;
+    float: left;   
+}
+
+.gridContainer img {
+    float: center;
+    height: 50%;
+    width: 95%;
+    margin: 3px;
+}

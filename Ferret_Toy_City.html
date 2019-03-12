@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel ="stylesheet" type = "text/css" href = "main.css">
+</head>
+<body>
+
+    <header>
+    
+<!--nav bar nested in header - given class "navBar" to refer to in css-->
+        <nav class = "navBar">
+<!--list element given classname navLinks to distinguish which list to format in css: .navLinks{}-->
+            <ul class = "navLinks">
+<!--"Home" list item given class "home" so that it can have a different allignment (left) than the rest of the list-->
+                <li class = "home"><a href = '#'>Home</a></li>
+                <li><a href = '#'>About Us</a></li>  
+                <li><a href = '#'>Shop</a></li> 
+                <li><a href = '#'>Contact</a></li> 
+                <input type = "text" placeholder = "Search..">
+                <button>Search</button>
+            </ul>
+
+        </nav>
+
+<!--background image nested in header-->        
+        <div class = "backgroundImg">
+        </div>
+
+    </header>
+        <!--holds title under header image-->    
+    <div class = "titleContainer"></div>
+    
+    <h1 class = "titleMain">Ferret Toy City</h1>
+
+<!--gridContainer holds each grid class which contains
+the product's image, name, price, and purchase button-->    
+    <div class = gridContainer>
+        <div class = "grid01">
+            <img src = "assets/ferretToy01.jpg">
+            <p>Marshall Ferret Octo-Play</p>
+            <p>$19.99</p>
+            <button>Add to cart!</button>
+        </div>
+        <div class = "grid02">
+            <img src = "assets/ferretToy02.jpg">
+            <p>Marshall Pop-N-Play Ball Pack</p>
+            <p>$5.99</p>
+            <button>Add to cart!</button>
+        </div>
+        <div class = "grid03">
+            <img src = "assets/ferretToy03.jpg">
+            <p>Marshall Ferret Ball Pit</p>
+            <p>$12.99</p>
+            <button>Add to cart!</button>
+        </div>
+        <div class = "grid04">
+            <img src = "assets/ferretToy04.jpg">
+            <p>Marshall Ferret Super Tunnel</p>
+            <p>$11.99</p>
+            <button>Add to cart!</button>
+        </div>
+        <div class = "grid05">
+            <img src = "assets/ferretToy05.jpg">
+            <p>Ferret Nation Accessories Kit</p>
+            <p>$39.99</p>
+            <button>Add to cart!</button>
+        </div>
+        <div class = "grid06">
+            <img src = "assets/ferretToy06.jpg">
+            <p>Marshall Ferret Bungee Toy</p>
+            <p>$7.99</p>
+            <button>Add to cart!</button>
+        </div>
+    </div>
+    
+
+</body>
+<footer>
+        <p>Company © Ferret Toy City. All rights reserved.</p>
+</footer>
+
+</html>
